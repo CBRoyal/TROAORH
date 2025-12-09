@@ -16,6 +16,9 @@
     font-family: "Permanent Marker", cursive, sans-serif;
     font-size: 25px;
 }
+#other_routes_and_higways_main_content{
+    color: var(--routes-of-america-navbar-links-visited-color);
+}
 #main_page_interstate_highway_pictures, #main_page_state_route_pictures{
     float: right;
 }
