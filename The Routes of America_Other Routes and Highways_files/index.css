@@ -1,7 +1,3 @@
-:root{
-    --routes-of-america-navbar-links-hover-color: #ffa500;
-    --routes-of-america-navbar-links-visited-color: #ffff00;
-}
 #background_us_image, #main_county_route_title_image{
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +13,7 @@
     font-size: 25px;
 }
 #other_routes_and_higways_main_content{
-    color: var(--routes-of-america-navbar-links-visited-color);
+    color: #ffff00;
 }
 #main_page_interstate_highway_pictures, #main_page_state_route_pictures{
     float: right;
@@ -36,8 +32,8 @@
     padding: 5px 10px;
 }
 #routes_of_america_navbar li a:hover, #copyright_link:hover, #web_portfolio_link:hover{
-    color: var(--routes-of-america-navbar-links-hover-color);
+    color: #ffa500;
 }
 #routes_of_america_navbar li a:visited, #copyright_link:visited, #web_portfolio_link:visited{
-    color: var(--routes-of-america-navbar-links-visited-color);
+    color: #ffff00;
 }
