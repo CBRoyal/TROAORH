@@ -31,6 +31,9 @@
 #routes_of_america_navbar li a{
     padding: 5px 10px;
 }
+#other_routes_and_highways_table{
+    border: 3px solid yellow;
+}
 #routes_of_america_navbar li a:hover, #copyright_link:hover, #web_portfolio_link:hover{
     color: orange;
 }
