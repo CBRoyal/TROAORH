@@ -1,42 +1,90 @@
-#background_us_image, #main_county_route_title_image{
-    margin-left: auto;
-    margin-right: auto;
+#background_us_image{
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    left: 500px;
 }
 #background_county_route_sign{
-    position: relative;
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    left: 70px;
+    top: 10px;
+}
+#first_title_line{
+    left: 200px;
+    top: 20px;
+    rotate: -35deg;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-size: 15px;
+    animation-name: bringInTitle;
+    animation-duration: 3s;
+}
+#second_title_line{
+    left: 200px;
+    top: 40px;
+    rotate: -35deg;
+    font-family: "Permanent Marker", cursive, sans-serif;
+    font-size: 15px;
+    animation-name: bringInTitle;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+#main_county_route_title_image{
+    width: 50vw;
+    height: 60vh;
     margin-left: auto;
     margin-right: auto;
-}
-.webpage_titles{
-    position: absolute;
-    font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 25px;
 }
 #other_routes_and_higways_main_content{
     color: yellow;
 }
-#main_page_interstate_highway_pictures, #main_page_state_route_pictures{
-    float: right;
-}
-#main_page_us_highway_pictures, #main_page_other_routes_and_highways_pictures{
-    float: left;
-}
-#routes_of_america_navbar ul{
-    list-style-type: none;
-    padding: 5px 0;
-}
-#routes_of_america_navbar li{
-    padding: 5px 0;
-}
-#routes_of_america_navbar li a{
-    padding: 5px 10px;
-}
 #other_routes_and_highways_table{
     border: 3px solid yellow;
 }
-#routes_of_america_navbar li a:hover, #copyright_link:hover, #web_portfolio_link:hover{
+#help_button{
+    border: 10px solid black;
+}
+#address_box{
+    left: 50px;
+    top: 100px;
+}
+#city_box{
+    left: 150px;
+    top: 100px;
+}
+#state_box{
+    left: 250px;
+    top: 100px;
+}
+#zip_code_box{
+    left: 350px;
+    top: 100px;
+}
+#phone_number_box{
+    left: 100px;
+    top: 250px;
+}
+#email_box{
+    left: 200px;
+    top: 250px;
+}
+.routes_of_america_footer{
+    position: fixed;
+}
+#routes_of_america_navbar > a:hover,#copyright_link:hover, #web_portfolio_link:hover,
+#email_link:hover{
     color: orange;
 }
-#routes_of_america_navbar li a:visited, #copyright_link:visited, #web_portfolio_link:visited{
+#routes_of_america_navbar > a:visited, #copyright_link:visited, #web_portfolio_link:visited, 
+#email_link:visited{
     color: yellow;
+}
+@keyframes bringInTitle{
+    0% {transform: translate(-10px, 45px) rotate(-35deg);}
+    15% {transform: translate(60px, 25px) rotate(-35deg);}
+    25% {transform: translate(60px, 25px) rotate(35deg);}
+    50% {transform: translate(100px, 45px) rotate(35deg);}
+    75% {transform: translate(100px, 45px) rotate(-35deg);}
+    100% {transform: translate(200px, 100px) rotate(-35deg);}
 }
