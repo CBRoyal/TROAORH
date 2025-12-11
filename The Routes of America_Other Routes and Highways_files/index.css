@@ -36,7 +36,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-#other_routes_and_higways_main_content, #email_link{
+#other_routes_and_higways_main_content, #email_link, #copyright_link, #footer_text, 
+#web_portfolio_link{
     color: yellow;
 }
 #other_routes_and_highways_table{
@@ -76,9 +77,12 @@
 #email_link:hover{
     color: orange;
 }
-#routes_of_america_navbar > a:visited, #copyright_link:visited, #web_portfolio_link:visited, 
-#email_link:visited{
+#routes_of_america_navbar > a:visited{
     color: yellow;
+}
+#copyright_link:visited, #web_portfolio_link:visited, 
+#email_link:visited{
+    color: white;
 }
 @keyframes bringInTitle{
     0% {transform: translate(-10px, 45px) rotate(-35deg);}
