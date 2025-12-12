@@ -42,6 +42,10 @@
 }
 #other_routes_and_highways_table{
     border: 3px solid yellow;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #help_button{
     border: 10px solid black;
