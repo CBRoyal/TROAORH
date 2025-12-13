@@ -1,26 +1,27 @@
-#routes_of_america_logo{
+.routes_of_america_logo{
     position: relative;
-    width: 20vw;
-    height: 20vh;
     margin-left: auto;
     margin-right: auto;
 }
-.title_lines{
+.first_title_line{
     position: absolute;
-    left: 200px;
-    top: 40px; 
-}
-.first{
+    left: 100px;
+    top: 90px;
+    z-index: 2;
     rotate: -35deg;
     font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px;
+    font-size: 15px; 
     animation-name: bringInTitle;
     animation-duration: 3s;
 }
-.second{
+.second_title_line{
+    position: absolute;
+    left: 120px;
+    top: 110px;
+    z-index: 1;
     rotate: -35deg;
     font-family: "Permanent Marker", cursive, sans-serif;
-    font-size: 15px;
+    font-size: 15px; 
     animation-name: bringInTitle;
     animation-duration: 3s;
     animation-delay: 1s;
