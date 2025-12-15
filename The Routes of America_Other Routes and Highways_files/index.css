@@ -32,7 +32,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-#other_routes_and_higways_main_content{
+#other_routes_and_higways_main_content,
+#footer_text{
     color: yellow;
 }
 #other_routes_and_highways_table, td, th{
