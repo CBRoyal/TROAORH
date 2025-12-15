@@ -9,6 +9,7 @@
     top: 90px;
     z-index: 2;
     rotate: -35deg;
+    color: yellow;
     font-family: "Permanent Marker", cursive, sans-serif;
     font-size: 15px; 
     animation-name: bringInTitle;
@@ -20,6 +21,7 @@
     top: 110px;
     z-index: 1;
     rotate: -35deg;
+    color: yellow;
     font-family: "Permanent Marker", cursive, sans-serif;
     font-size: 15px; 
     animation-name: bringInTitle;
